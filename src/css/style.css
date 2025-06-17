@@ -321,67 +321,68 @@ footer .line-footer p a {
 
 @media screen and (max-width: 1020px) {
     /*CLASSES GERAIS*/
-    
-
-    h2.title{
-        font-size: 34px;
-        line-height: 30pc;
+    .flex {
+        flex-direction: column;
     }
 
-    section .topo-do-site .flex{
+    h2.title {
+        font-size: 34px;
+        line-height: 40px; /* ← Corrigido apenas aqui */
+    }
+
+    .topo-do-site .flex {
         flex-direction: column-reverse;
     }
 
-    /* CABEÇALHO*/
-    .menu-desktop, .btn-contato{
+    /* CABEÇALHO */
+    .menu-desktop, .btn-contato {
         display: none;
     }
-    section.topo-do-site{
-        padding: 20px 8%;
-    } 
 
-    .topo-do-site .txt-topo-site h1{
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .txt-topo-site h1 {
         font-size: 30px;
     }
 
-    .topo-do-site .img-topo-site img{
+    .topo-do-site .img-topo-site img {
         width: 100%;
     }
 
-    section.topo-do-site .flex{
+    section.topo-do-site .flex {
         gap: 40px;
-    } 
+    }
 
-    section.especialidades{
+    section.especialidades {
         padding: 40px 8%;
     }
 
-    section.sobre{
+    section.sobre {
         padding: 80px 8%;
     }
 
-    .sobre .txt-sobre h2{
+    .sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 35px;
         text-align: center;
     }
 
-    .btn-social{
+    .btn-social {
         text-align: center;
     }
-    
-    .img-sobre img{
+
+    .img-sobre img {
         width: 100%;
     }
 
-    footer .flex{
+    footer .flex {
         flex-direction: column;
         gap: 30px;
-
     }
 
-    footer .line-footer{
+    footer .line-footer {
         text-align: center;
     }
-    
 }
