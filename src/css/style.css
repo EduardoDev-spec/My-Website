@@ -387,3 +387,135 @@ footer .line-footer p a {
     }
     
 }
+
+@media screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.title {
+        font-size: 30px;
+        line-height: 28px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+    section.topo-do-site {
+        padding: 20px 6%;
+    }
+
+    .topo-do-site .txt-topo-site h1 {
+        font-size: 26px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    section.topo-do-site .flex {
+        gap: 30px;
+    }
+
+    section.especialidades {
+        padding: 30px 6%;
+    }
+
+    section.sobre {
+        padding: 60px 6%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 30px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    footer .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+    section.topo-do-site {
+        padding: 15px 5%;
+    }
+
+    .topo-do-site .txt-topo-site h1 {
+        font-size: 22px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    section.topo-do-site .flex {
+        gap: 20px;
+    }
+
+    section.especialidades {
+        padding: 20px 5%;
+    }
+
+    section.sobre {
+        padding: 40px 5%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    footer .flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
